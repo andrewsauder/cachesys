@@ -1,4 +1,5 @@
-#cacheSys
+# cacheSys
+
 Simple PHP caching system for raw data or rendered output.
 
 ----------
@@ -18,7 +19,7 @@ If you opt not to add a *use* statement, you must reference the cacheSys methods
     \andrewsauder\cacheSys::get( 'cacheName', 'cacheKey' );
 
 
-###Retrieving and Create Cache
+### Retrieving and Create Cache
 This is the core useage of cacheSys. I like to think of it as a wrapper for any complex logic that slows requests down.
 
     $employee = cacheSys::get( 'employees', 712 );
@@ -39,12 +40,12 @@ Of course, you always need to make sure that your cached data remains relevant. 
 	 */
     $employee = cacheSys::get( 'employees', 712, 86400 );
 
-###Delete Cached Item
+### Delete Cached Item
 You can also delete a specific cached item on demand.
 
     cacheSys::deleteCachedItem( 'employees', 712 );
 
-###Delete Cache Category
+### Delete Cache Category
 Or delete an entire cache category. For example, if you wanted to delete all employees instead of just one, you can delete the entire category instead
 
     cacheSys::deleteCachedCategory( 'employees');

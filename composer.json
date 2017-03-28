@@ -1,0 +1,15 @@
+{
+    "name": "andrewsauder/cachesys",
+    "description": "Simple PHP caching system for raw data or rendered output.",
+    "homepage": "https://github.com/andrewsauder/cachesys",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Sauder",
+            "email": "andrewsauder@gmail.com"
+        }
+    ],
+    "require": {
+		"php": "^5.4 || ^7.0"
+	}
+}

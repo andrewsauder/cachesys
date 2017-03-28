@@ -33,7 +33,7 @@ class cacheSys {
 
 		$content = false;
 
-		$fileName = self::$$basepath.$cacheName.'.'.$key.'.cache';
+		$fileName = self::$basepath.$cacheName.'.'.$key.'.cache';
 
 		if($maxAge===false) {
 			if(file_exists($fileName)) {

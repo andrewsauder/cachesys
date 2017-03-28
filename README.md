@@ -5,7 +5,10 @@ Simple PHP caching system for raw data or rendered output.
 ----------
 
 ## Installing
-Composer installer coming soon! For now, simply include cachesys.php in your project.
+Composer is the preferred installation method. https://packagist.org/packages/andrewsauder/cachesys
+	
+	composer require andrewsauder/cachesys
+
 
 ## Useage
 All of the samples below will assume that you add a *use* statement inside of your namespace referencing cacheSys.
